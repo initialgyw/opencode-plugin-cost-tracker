@@ -1,0 +1,6 @@
+node_modules/
+
+# Personal OpenCode workspace setup (agents, providers, routing) used while
+# developing this repository. It is machine-specific and not part of the plugin.
+.opencode/
+/config.json
