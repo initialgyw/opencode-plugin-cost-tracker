@@ -2,14 +2,23 @@
   "name": "opencode-plugin-cost-tracker",
   "version": "0.1.0",
   "description": "OpenCode TUI sidebar plugin that shows context, token usage, and estimated cost per model for a session and its subagent sessions.",
+  "license": "MIT",
   "private": true,
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/initialgyw/opencode-plugin-cost-tracker.git"
+  },
   "exports": {
     "./tui": "./src/index.tsx"
   },
   "scripts": {
     "test": "bun test ./src",
     "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "@opentui/solid": "0.4.5",
+    "solid-js": "1.9.12"
   },
   "devDependencies": {
     "@opencode-ai/plugin": "1.18.29",
